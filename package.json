@@ -1,6 +1,6 @@
 {
-  "name": "occurence",
-  "version": "1.0.0",
+  "name": "dejavu-word",
+  "version": "1.0.2",
   "description": "occurence word in a text",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/othke/occurence.git"
+    "url": "git+ssh://git@github.com/othke/dejavu-word.git"
   },
   "keywords": [
     "word"
@@ -16,9 +16,9 @@
   "author": "othomas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/othke/occurence/issues"
+    "url": "https://github.com/othke/dejavu-word/issues"
   },
-  "homepage": "https://github.com/othke/occurence#readme",
+  "homepage": "https://github.com/othke/dejavu-word#readme",
   "devDependencies": {
     "jest": "^23.1.0"
   }

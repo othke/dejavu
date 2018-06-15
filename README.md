@@ -1,4 +1,4 @@
-# Occurence
+# Dejavu
 
 A simple word occurence couter into text
 
@@ -9,6 +9,6 @@ npm run test
 
 ```
 # require into project
-const occurence = require('occurence)
-occurence('toto toto tata tutu')
+const dejavu = require('dejavu-word')
+dejavu('toto toto tata tutu')
 ```
