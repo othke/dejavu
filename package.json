@@ -1,0 +1,25 @@
+{
+  "name": "occurence",
+  "version": "1.0.0",
+  "description": "occurence word in a text",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/othke/occurence.git"
+  },
+  "keywords": [
+    "word"
+  ],
+  "author": "othomas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/othke/occurence/issues"
+  },
+  "homepage": "https://github.com/othke/occurence#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
