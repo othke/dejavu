@@ -12,8 +12,9 @@ describe("counter", () => {
   });
 
   it("should return a filled counter", () => {
-    const text =
-      "Bonjour, je suis monsieur: 'Bonjour'. Je suis aussi Développeur (JavaScript ou javascript) !!!!";
+    const text = `Bonjour, je suis monsieur: 'Bonjour'. 
+      Je suis aussi Développeur (JavaScript ou javascript) !!!!
+      A demain à la tombée du jour.`;
     const expectedDejavu = new Map([
       ["bonjour", 2],
       ["je", 2],
@@ -23,6 +24,11 @@ describe("counter", () => {
       ["développeur", 1],
       ["javascript", 2],
       ["ou", 1],
+      ["demain", 1],
+      ["la", 1],
+      ["tombée", 1],
+      ["du", 1],
+      ["jour", 1],
     ]);
     expect(dejavu(text)).toEqual(expectedDejavu);
   });

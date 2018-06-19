@@ -1,6 +1,6 @@
 {
   "name": "dejavu-word",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "occurence word in a text",
   "main": "index.js",
   "scripts": {
